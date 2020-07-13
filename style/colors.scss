@@ -1,0 +1,129 @@
+$base-text-color: rgb(19,51,55);
+$faded-text-color: rgba($base-text-color, 0.5);
+$base-bg-color: rgb(255,255,255);
+$border-color: rgb(201, 201, 201);
+$base-background: rgba($base-text-color, 0.2);
+
+$swimlane-activity: rgb(192, 214, 228);
+$swimlane-start: rgb(82, 163, 35);
+$swimlane-end: rgb(49, 49, 49);
+
+$connector-color: rgb(35, 121, 163);
+
+$color-heritage-green: rgb(0, 150, 119);
+$color-fresh-green: rgb(80, 184, 72);
+$color-future-green:  rgb(141, 198, 63);
+$color-sky:  rgb(0, 192, 232);
+$color-sun:  rgb(255, 242, 0);
+$color-naartjie:  rgb(243, 112, 33);
+$color-cerise:  rgb(237, 0, 128);
+
+.faded-text{
+    color: $base-text-color;
+    color: rgba($base-text-color, 0.6); 
+}
+
+.base-active-item{
+    background-color: $base-text-color !important;
+    color: $base-bg-color !important;
+}
+
+.header-text{
+    @extend .faded-text;
+}
+
+.base-border{
+    border: 1px solid $border-color; 
+}
+
+.theme-heritage-green{
+    background-color: $color-heritage-green;
+    color: white;
+    border-color: darken($color-heritage-green, 10%) !important;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.bg-heritage-green {
+    background-color: $color-heritage-green;
+}
+
+.bg-fresh-green {
+    background-color: $color-fresh-green;
+}
+
+.bg-future-green {
+    background-color: $color-future-green;
+}
+
+.bg-sky {
+    background-color: $color-sky;
+}
+
+.bg-sun {
+    background-color: $color-sun;
+}
+
+.bg-naartjie {
+    background-color: $color-naartjie;
+}
+
+.bg-cerise {
+    background-color: $color-cerise;
+}
+
+.text-heritage-green {
+    color: $color-heritage-green;
+}
+
+.text-fresh-green {
+    color: $color-fresh-green;
+}
+
+.text-future-green {
+    color: $color-future-green;
+}
+
+.text-sky {
+    color: $color-sky;
+}
+
+.text-sun {
+    color: $color-sun;
+}
+
+.text-naartjie {
+    color: $color-naartjie;
+}
+
+.text-cerise {
+    color: $color-cerise;
+}
+
+.border-heritage-green {
+    border-color: $color-heritage-green !important;
+}
+
+.border-fresh-green {
+    border-color: $color-fresh-green !important;
+}
+
+.border-future-green {
+    border-color: $color-future-green !important;
+}
+
+.border-sky {
+    border-color: $color-sky !important;
+}
+
+.border-sun {
+    border-color: $color-sun !important;
+}
+
+.border-naartjie {
+    border-color: $color-naartjie !important;
+}
+
+.border-cerise {
+    border-color: $color-cerise !important;
+}

@@ -1,0 +1,96 @@
+@import 'colors';
+@import 'controls';
+
+.dash-frame{
+    font-size: 0.8rem;
+    
+    background-color: $base-bg-color;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.dash-frame .title-bar{
+    color: $base-text-color;
+
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.dash-frame .frame-title{
+    width: 100%;
+    height: 20px;
+    min-height: 20px;
+    padding: 5px;
+}
+
+.dash-edit{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.title-bar .btn,
+.title-bar .btn-search{
+    font-size: 0.8rem;
+    border: 0;
+    padding: 0;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    opacity: 0.6;
+}
+.slicer-item{
+    background-color: rgba($base-text-color, 0.2) !important;
+    color: $base-text-color;
+
+    overflow: hidden;
+    vertical-align: middle;
+    margin: 0;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    cursor    : pointer;
+    border-radius: 4px;
+}
+
+.slicer-item:hover,
+.slicer-item.active{
+    @extend .base-active-item;
+}
+
+.slicer-item.disabled,
+.slicer-item.disabled:hover{
+    color: $faded-text-color !important;
+    font-style: italic;
+    background-color:transparent !important;
+}
+
+@media screen and (max-width: 500px) {
+    .dash-frame{
+        left: 5vw !important;
+        top: 0 !important;
+        position: relative !important;
+        width: 80vw !important;
+        min-height: 70vh !important;
+        margin-top: 15px;
+    }
+
+    .frame-body{
+        min-height: 100% !important;
+        overflow: auto;
+    }
+
+    .popup-card{
+        width: 100vw !important;
+        max-width: 100vw !important;
+        min-width: 100vw !important;
+    }    
+}
