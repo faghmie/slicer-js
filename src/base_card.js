@@ -21,10 +21,8 @@ var BaseCard = {
                 '<div class="title-bar">'+
                     '<div class="frame-title" />'+
                     '<div class="dash-edit">'+
-                        // '<div class="-btn-group -btn-group-xs">'+
                             '<a class="slicer-setting btn btn-light btn-link"><i class="fa fa-cog"></i></a>'+
                             '<a class="slicer-remove btn btn-light btn-link"><i class="fa fa-trash"></i></a>'+
-                        // '</div>'+
                     '</div>'+
                 '</div>'+                
                 '<div class="frame-body h-100 m-2" />'+
