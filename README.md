@@ -3,7 +3,7 @@
 
 Provide the Excel slicer capability to websites. Simple implementation to help filter table or datasets using visual feedback.
 
-![Sample image of a slicer](images/sample-slicer.png)
+![Slicer in action](images/slicer-in-action.gif)
 
 # Dependencies
 
