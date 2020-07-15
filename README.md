@@ -5,6 +5,10 @@ Provide the Excel slicer capability to websites. Simple implementation to help f
 
 ![Slicer in action](images/slicer-in-action.gif)
 
+# See it in action
+
+Visit my cloud-based business insights application [demo.biznous.net](https://demo.biznous.net) to see how it is being used in production.
+
 # Dependencies
 
 - jQuery (3.4.1) - so I don't need to worry about cross browser issues LOL
